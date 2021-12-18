@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Table Form</title>
+	<style>
+		 
+      th.c2 {
+        background-color: lightslategrey;
+     }
+		 table {
+			  font-family: arial, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+			  width: 50%;
+              /* text-align: center; */
+   			  margin: 0 auto;
+             }
+
+     
+        .table_3{
+          background-color: aqua;
+        }
+
+     
+       .c3{
+        background-color: ;
+       }
+		
+    	td {
+			  border: 1px solid #dddddd;
+			  text-align: left;
+			  padding: 8px;
+			}
+
+
+             th{
+             	text-align: left;
+             	padding: 8px;
+             	background-color: tomato;
+             	/*background-color: darkcyan;*/
+             }
+
+
+    			tr:nth-child(even) {
+    			  background-color: #dddddd;
+    			}
+
+            .c1{
+            	background-color: darkcyan; 	
+            } 
+
+
+	</style>
+</head>
+
+<body>
+      <table class="table_1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Occupation</th>
+    <th>Location</th>
+  </tr>
+
+  <tr>
+    <td>Luke Peters</td>
+    <td>25</td>
+    <td>Freelance Web Developer</td>
+    <td>Brookline, MA</td>
+  </tr>
+
+  <tr>
+    <td>Joseph Smith</td>
+    <td>27</td>
+    <td>Somerville, MA</td>
+    <td>Mexico</td>
+  </tr>
+
+  <tr>
+    <td>Maxwell Johnson</td>
+    <td>26</td>
+    <td>UX Architect & Designer</td>
+    <td>Arlington, MA</td>
+  </tr>
+
+ </table>
+  <br><br><br><br>
+
+  <table class="table_2">
+
+  <tr>
+    <th class="c1">Username</th>
+    <th class="c1">Email</th>
+    <th class="c1">Password</th>
+    <th class="c1">Active</th>
+  </tr>
+
+  <tr>
+    <td>ninjalug</td>
+    <td>misterninja@hotmail.com</td>
+    <td>************</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>jsmith41</td>
+    <td>joseph.smith@gmail.com</td>
+    <td>************</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>1337hax0r15</td>
+    <td>hackerdude1000@aol.com</td>
+    <td>************</td>
+    <td>Yes</td>
+  </tr>
+ </table>
+
+  <br><br>
+
+  <table  class="table_3" border="1" cellpadding="5" cellspacing="5" align="center" height="400" width="700">
+
+<tr>
+<th class="c2" rowspan="3" ><font size="50px"> day </font> </th>
+<th class="c2" colspan="3"> seminar </th></tr>
+<tr>
+<th class="c2" colspan="2"> schedule </th>
+<th class="c2" rowspan="2"> topic </th>
+<tr>
+<th> begin </th><th> end </th>
+</tr>
+
+<tr>
+<td rowspan="2">Monday</td>
+<td rowspan="2" bgcolor="orange">8:00 a.m.</td>
+<td rowspan="2" bgcolor="blue">5:00 p.m.</td>
+<td >Introduction to XML</td>
+<tr><td >Validity: DTD and Relax NG</td>
+
+<tr>
+<td rowspan="3">Tuesday</td>
+<td bgcolor="orange">8:00 a.m.</td>
+<td bgcolor="orange">11:00 a.m.</td>
+<td >XPath</td><tr>
+<td bgcolor="orange">11:00 a.m.</td>
+<td bgcolor="green"> 2:00 p.m.</td>
+<td rowspan="2"> XSL Transformatics</td>
+<tr><td bgcolor="green">2:00 p.m.</td>
+<td bgcolor="blue">5:00 p.m.</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td bgcolor="orange">8:00 a.m.</td>
+<td bgcolor="green">12:00 p.m.</td>
+<td>XSL Formatting Objects</td>
+</tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>form page</title>
+
+ <style>
+
+
+        .div1
+        {
+          width: 570px;
+          border: 16px solid black;
+          margin: 0px 500px 50px 487px;
+          background-color: #ccfe67;
+          /*border-color: wheat;*/
+        }
+
+
+      .input1
+      {
+        margin-left: 39px !important;
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+         font-size: 14px;
+      }
+
+      .input2
+      {
+         padding: 10px;
+        margin: 10px;
+        width: 300px;
+        /*padding: 15px;*/
+         font-size: 14px;
+         margin-left: 73px;
+      }
+
+      .input3
+      {
+        width: 300px;
+         padding: 10px;
+        margin: 10px;
+         font-size: 14px;
+         margin-left: 45px;
+      }
+
+      .input4
+      {
+        width: 300px;
+          padding: 10px;
+        margin: 10px;
+         font-size: 14px;
+         margin-left: 64px;
+      }
+
+
+      .input5
+      {
+        width: 300px;
+         padding: 10px;
+        margin: 10px;
+         font-size: 14px;
+         margin-left: 52px;
+      }
+
+
+      .input6
+      {
+        width: 300px;
+          padding: 10px;
+        margin: 10px;
+         font-size: 14px;
+         margin-left: 67px;
+      }
+      
+
+      .input7
+      {
+        width: 300px;
+         padding: 10px;
+        margin: 10px;
+         font-size: 14px;
+         mmargin-left: 39px;
+      }
+
+
+      th{
+        font-size: 22px;
+        color: tomato;
+      }
+
+      
+      .sub1
+      {
+
+        background-color: #fb9124;
+        padding: 15px;
+        font-size: 19px;
+        border-radius: 50px;
+        width: -webkit-fill-available;
+       }
+
+
+
+         table{
+            margin: -159px 10px 10px 50px;
+         }
+
+
+         td{
+           text-align: center;
+           font-size: 18px;
+           font-weight: 600;
+         }
+
+
+ </style>
+</head>
+<body>
+
+	    <div class="div1">
+        <!-- <h3>Personal Details:</h3> -->
+        <table>
+          <br><br>
+          <tr>
+            <th>Personal Details</th>
+          </tr>
+    	 <tr>
+    	 	<td>Full Name: 
+    	    <span id="i1"><input class="input1" type="text" name="fname" placeholder= "enter name"></td></span>
+            <br><br>
+    	 </tr>
+    	 <br><br>
+    	 <tr>
+    	 	<td>Email: 
+    	 	<input class="input2" type="Email" name="email" placeholder= "enter Email"></td>
+    	 </tr>
+    	 <br><br>
+         <tr>
+         	<td>Password: 
+         	<input class="input3" type="Password"  name="Password" placeholder= "enter Password"></td>
+         </tr>     
+        
+          <tr>
+          	<td>Mobile: 
+          	<input class="input4" type="text" name="mbno" placeholder="enter mobile number"></td>
+          </tr>
+   
+          <tr>
+            <td>Birthday: 
+             <input class="input5" type="date" name="bday"></td>
+          </tr>
+
+         <tr>
+          <td>Gender:
+          <input  type="radio"  name="gender" value="male">   Male
+          <input  type="radio"  name="gender" value="female">     Female
+          <input  type="radio"  name="gender" value="other">      Other <br></td><br><br>
+         </tr>
+        
+
+         <tr>
+
+        	<th>&nbsp;&nbsp;&nbsp; Educational Qualification</th>
+        </tr>
+
+      <!-- <h3>Educational Qualification:</h3></tr> -->
+
+      <tr>
+       <td>Engineering:
+       
+        <input class="input6" list="Engineering" name="Engineer">
+		<datalist class="input1" id="Engineering">
+		<option value="computer science">
+		<option value="ENTC">
+		<option value="Electrical">
+		<option value="civil"></option>
+	    </datalist>       	
+       </td>
+         </tr>
+
+          <tr>
+            <td>Hobbies : 
+            <input  type="checkbox" name="cricket">playing cricket
+                <input  type="checkbox" name="book">reading books
+            </td>
+          </tr>
+
+          <!-- <tr>
+
+            <select name="cars">
+                <option value="volvo"> Volvo </option>
+                <option value="saab"> Saab </option>
+                <option value="fiat"> Fiat </option>
+                <option value="audi"> Audi </option>
+            </select>
+          </tr>
+ -->
+         <tr>
+          <td> Select file:
+          <input class="input7" type="file" name="fl" multiple></td>
+         </tr>
+
+          <tr>
+        	<th>Address</th>
+        </tr>
+
+          <tr>
+            <!-- <td>Address: </td> -->
+            <td><textarea style="width: 300px; margin: 0px 0px 21px 0px;" class="input1" name="message" rows="10" cols="30"
+                    placeholder="enter text here">
+              </textarea></td>
+          </tr>
+
+        
+
+<!--  
+          <tr>
+               <td></td>
+              <td></td>
+          </tr> -->
+
+          
+       <tr>
+       	<td><input class="sub1" type="submit" value="SUBMIT">
+         </td>
+       	</tr>    
+       </table>
+<!-- 
+       <input class="input2" type="submit" value="SUBMIT">
+
+ -->
+          </div>
+      </body>
+</html>
